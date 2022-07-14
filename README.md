@@ -55,7 +55,7 @@ Use Support Vector machine to build a url spam classifier.
 
 As always, use your notebook to experiment and make sure you are getting the results you want. 
 
-Use you app.py file to save your defined steps, pipelines or functions in order. 
+Use you app.py file to save your defined steps, pipelines or functions in the right order. 
 
 In your README file write a brief summary.
 
