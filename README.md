@@ -16,7 +16,7 @@ You will not be forking this time, please take some time to read this instructio
 
 ## 🚛 How to deliver this project
 
-Once you are finished creating your URL spam detector, make sure to commit your changes, push to your repository and go to 4Geeks.com to upload the repository link.
+Once you are finished creating your URL spam classifier, make sure to commit your changes, push to your repository and go to 4Geeks.com to upload the repository link.
 
 
 ## 📝 Instructions
@@ -31,7 +31,7 @@ We will use a URL dataset which you can find in the following link https://raw.g
 
 **Step 2:**
 
-Do the necessary NLP cleaning process. Exclude the stop words, you may add words like 'com', 'http', etc to your list.
+Use NLP techniques to preprocess the data. 
 Here is another idea on how to exclude some words by creating new columns:
 
 ```py
