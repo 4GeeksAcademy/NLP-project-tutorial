@@ -2,9 +2,9 @@
 # NLP Project Tutorial
 <!-- endhide -->
 
-- In our last exploring NLP notebook we built a spam detector using Natural Language Processing techniques and the Support Vector Machine (SVM) algorithm for classification.
+- In our last exploring NLP notebook we built an email spam detector using Natural Language Processing techniques and the Support Vector Machine (SVM) algorithm for classification.
 
-- In this project, we will have a brief and simple introduction to sentiment analysis using the same Spam dataset. 
+- In this project, we will again build a spam detector but this time using URLs instead of emails. 
 
 ## 🌱  How to start this project
 
@@ -16,29 +16,30 @@ You will not be forking this time, please take some time to read this instructio
 
 ## 🚛 How to deliver this project
 
-Once you are finished creating your email sentiment analysis columns, make sure to commit your changes, push to your repository and go to 4Geeks.com to upload the repository link.
+Once you are finished creating your URL spam detector, make sure to commit your changes, push to your repository and go to 4Geeks.com to upload the repository link.
 
 
 ## 📝 Instructions
 
-**Email Sentiment Analysis**
+**URL Spam detector**
 
-We will use the same dataset as the exploring-natural-language-processing notebook, but this time we will focus on sentiment analysis. https://raw.githubusercontent.com/4GeeksAcademy/NLP-project-tutorial/main/spam.csv
-
+We will use a URL dataset which you can find in the following link https://raw.githubusercontent.com/4GeeksAcademy/NLP-project-tutorial/main/url_spam.csv
 
 **Step 1:**
 
-As always, use your notebook to experiment and make sure you are getting the results you want.  
-
+ Load your dataset and do the necessary transformations on your target variable.
 
 **Step 2:**
 
-
+Do the necessary NLP cleaning process. Exclude the stop words, you may add words like 'com', 'http', etc to your list.
 
 **Step 3:**
 
+Use Support Vector machine to build a url spam classifier.
 
 **Step 4:**
+
+As always, use your notebook to experiment and make sure you are getting the results you want. 
 
 Use you app.py file to save your defined steps, pipelines or functions in order. 
 
