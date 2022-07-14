@@ -23,7 +23,7 @@ Once you are finished creating your email sentiment analysis columns, make sure 
 
 **Email Sentiment Analysis**
 
-We will use the same dataset as the exploring-natural-language-processing notebook, but this time we will focus on sentiment analysis.
+We will use the same dataset as the exploring-natural-language-processing notebook, but this time we will focus on sentiment analysis. https://raw.githubusercontent.com/4GeeksAcademy/NLP-project-tutorial/main/spam.csv
 
 
 **Step 1:**
