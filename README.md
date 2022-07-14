@@ -60,3 +60,5 @@ Use you app.py file to save your defined steps, pipelines or functions in order.
 In your README file write a brief summary.
 
 Solution guide: 
+
+https://github.com/4GeeksAcademy/NLP-project-tutorial/blob/main/solution_guide.ipynb
