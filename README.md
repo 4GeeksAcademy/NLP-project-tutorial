@@ -2,11 +2,9 @@
 # NLP Project Tutorial
 <!-- endhide -->
 
-- Spam Detector is used to detect unwanted, malicious and virus infected texts and helps to separate them from the nonspam texts. It uses a binary type of classification containing the labels such as ‘ham’ (nonspam) and spam.
+- In our last exploring NLP notebook we built a spam detector using Natural Language Processing techniques and the Support Vector Machine (SVM) algorithm for classification.
 
--In our last exploring NLP notebook we built a spam detector using Natural Language Processing techniques and the Support Vector Machine (SVM) algorithm for classification.
-
-- In this project, we will have a brief and simple introduction to sentiment analysis using our Spam Detector dataset. 
+- In this project, we will have a brief and simple introduction to sentiment analysis using the same Spam dataset. 
 
 ## 🌱  How to start this project
 
