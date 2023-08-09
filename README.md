@@ -1,64 +1,49 @@
 <!-- hide -->
-# NLP Project Tutorial
+# SVM to detect link spam - Step by step guide
 <!-- endhide -->
 
-- In our last exploring NLP notebook we built an email spam detector using Natural Language Processing techniques and the Support Vector Machine (SVM) algorithm for classification.
-
-- In this project, we will again build a spam detector but this time using URLs instead of emails. 
+- Understanding a new dataset.
+- Model the data using an SVM.
+- Analyze the results and optimize the model.
 
 ## 🌱  How to start this project
 
-You will not be forking this time, please take some time to read this instructions:
+You will not be forking this time, please take some time to read these instructions:
 
 1. Create a new repository based on [machine learning project](https://github.com/4GeeksAcademy/machine-learning-python-template/generate) by [clicking here](https://github.com/4GeeksAcademy/machine-learning-python-template).
-2. Open the recently created repostiroy on Gitpod by using the [Gitpod button extension](https://www.gitpod.io/docs/browser-extension/).
-3. Once Gitpod VSCode has finished opening you start your project following the Instructions below.
+2. Open the newly created repository in Codespace using the [Codespace button extension](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository).
+3. Once the Codespace VSCode has finished opening, start your project by following the instructions below.
 
 ## 🚛 How to deliver this project
 
-Once you are finished creating your URL spam classifier, make sure to commit your changes, push to your repository and go to 4Geeks.com to upload the repository link.
-
+Once you are finished creating your linear regression model, make sure to commit your changes, push to your repository and go to 4Geeks.com to upload the repository link.
 
 ## 📝 Instructions
 
-**URL Spam detector**
+### Spam link detection system
 
-We will use a URL dataset which you can find in the following link https://raw.githubusercontent.com/4GeeksAcademy/NLP-project-tutorial/main/url_spam.csv
+We want to implement a system that is able to automatically detect whether a web page contains spam or not based on its URL.
 
-**Step 1:**
+#### Step 1: Loading the dataset
 
- Load your dataset and do the necessary transformations on your target variable.
+The dataset can be found in this project folder under the name `url_spam.csv`. You can load it into the code directly from the link (`https://raw.githubusercontent.com/4GeeksAcademy/NLP-project-tutorial/main/url_spam.csv`) or download it and add it by hand in your repository.
 
-**Step 2:**
+#### Step 2: Preprocess the links
 
-Use NLP techniques to preprocess the data. 
-Here is another idea on how to exclude some words by creating new columns:
+Use what we have seen in this module to transform the data to make it compatible with the model we want to train. Segment the URLs into parts according to their punctuation marks, remove stopwords, lemmatize, and so on.
 
-```py
-df['len_url'] = df['url'].apply(lambda x : len(x))
-df['contains_subscribe'] = df['url'].apply(lambda x : 1 if "subscribe" in x else 0)
-df['contains_hash'] = df['url'].apply(lambda x : 1 if "#" in x else 0)
-df['num_digits'] = df['url'].apply(lambda x : len("".join(_ for _ in x if _.isdigit())) )
-df['non_https'] = df['url'].apply(lambda x : 1 if "https" in x else 0)
-df['num_words'] = df['url'].apply(lambda x : len(x.split("/")))
+Make sure to conveniently split the dataset into `train` and `test` as we have seen in previous lessons.
 
-target = 'is_spam'
-features = [f for f in df.columns if f not in ["url", target]]
-X_train, X_test, y_train, y_test = train_test_split(df[features], df[target], test_size=0.2, random_state=0)
-```
+#### Step 3: Build an SVM
 
-**Step 3:**
+Start solving the problem by implementing an SVM with the default parameters. Train it and analyze its results.
 
-Use Support Vector machine to build a url spam classifier.
+#### Step 4: Optimize the previous model
 
-**Step 4:**
+After training the SVM, optimize its hyperparameters using a grid search or a random search.
 
-As always, use your notebook to experiment and make sure you are getting the results you want. 
+#### Step 5: Save the model
 
-Use you app.py file to save your defined steps, pipelines or functions in the right order. 
+Store the model in the corresponding folder.
 
-In your README file write a brief summary.
-
-Solution guide: 
-
-https://github.com/4GeeksAcademy/NLP-project-tutorial/blob/main/solution_guide.ipynb
+> NOTA: Solution: https://github.com/4GeeksAcademy/NLP-project-tutorial/blob/main/solution.ipynb
