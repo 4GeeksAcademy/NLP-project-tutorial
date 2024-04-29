@@ -2,7 +2,7 @@
 	"slug" : "NLP-project-tutorial",
 	"title" : "NLP Project Tutorial",
 	"preview": "https://github.com/4GeeksAcademy/NLP-project-tutorial/blob/main/preview.png?raw=true",
-	"solution": "https://github.com/4GeeksAcademy/NLP-project-tutorial/blob/main/solution_guide.ipynb",
+	"solution": "https://github.com/4GeeksAcademy/NLP-project-tutorial/blob/main/solution.ipynb",
 	"status": "published",
 	"translations": ["us"],
 	"technologies": ["data-science", "machine-learning"],
