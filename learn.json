@@ -5,7 +5,7 @@
 	"solution": "https://github.com/4GeeksAcademy/NLP-project-tutorial/blob/main/solution.ipynb",
 	"status": "published",
 	"translations": ["us"],
-	"technologies": ["data-science", "machine-learning"],
+	"technologies": ["python", "pandas", "numpy", "scikit-learn", "matplotlib", "nltk", "data-science", "machine-learning"],
 	"difficulty": "beginner",
 	"syntax": "python",
 	"duration" : 2,
