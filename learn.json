@@ -5,10 +5,12 @@
 	"solution": "https://github.com/4GeeksAcademy/NLP-project-tutorial/blob/main/solution.ipynb",
 	"status": "published",
 	"translations": ["us"],
-	"technologies": ["data-science", "machine-learning"],
+	"technologies": ["python", "pandas", "numpy", "scikit-learn", "matplotlib", "nltk", "data-science", "machine-learning"],
 	"difficulty": "beginner",
 	"syntax": "python",
 	"duration" : 2,
+	"template_url": "https://github.com/4GeeksAcademy/machine-learning-python-template",
     "projectType": "project",
+	"autoPlay": "false",
 	"description" : "Create a url spam detector using NLP techniques and Support Vector Machine algorithm"
 }
