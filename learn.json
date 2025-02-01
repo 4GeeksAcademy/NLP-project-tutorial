@@ -1,14 +1,23 @@
 {
 	"slug" : "NLP-project-tutorial",
-	"title" : "NLP Project Tutorial",
+	"title" : {
+		"us": "NLP Project Tutorial",
+		"es": "Tutorial de Proyecto de NLP"
+	},
 	"preview": "https://github.com/4GeeksAcademy/NLP-project-tutorial/blob/main/preview.png?raw=true",
 	"solution": "https://github.com/4GeeksAcademy/NLP-project-tutorial/blob/main/solution.ipynb",
 	"status": "published",
-	"translations": ["us"],
+	"translations": ["us", "es"],
 	"technologies": ["data-science", "machine-learning"],
 	"difficulty": "beginner",
 	"syntax": "python",
 	"duration" : 2,
-    "projectType": "project",
-	"description" : "Create a url spam detector using NLP techniques and Support Vector Machine algorithm"
+        "projectType": "project",
+	"telemetry": {
+        "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry?asset_id=435"
+    },
+	"description" :  {
+		"us": "Create an NLP-based spam detection system using Support Vector Machine (SVM) to analyze and classify URLs as spam or not. Learn dataset preprocessing, feature extraction, model training, and optimization.",
+		"es": "Crea un sistema de detección de spam basado en NLP utilizando el algoritmo Support Vector Machine (SVM) para analizar y clasificar URLs como spam o no. Aprende preprocesamiento de datos, extracción de características, entrenamiento y optimización del modelo."
+	}
 }
