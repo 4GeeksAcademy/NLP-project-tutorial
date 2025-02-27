@@ -6,7 +6,7 @@
 - Modelar los datos utilizando un SVM.
 - Analizar los resultados y optimizar el modelo.
 
-<onlyfor saas="false" withBanner="false">
+<how-to-start>
   
 ## 🌱 Cómo iniciar este proyecto
 
@@ -16,7 +16,7 @@ Sigue las siguientes instrucciones:
 2. Abre el repositorio creado recientemente en Codespace usando la [extensión del botón de Codespace](https://docs.github.com/es/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository).
 3. Una vez que el VSCode del Codespace haya terminado de abrirse, comienza tu proyecto siguiendo las instrucciones a continuación.
 
-</onlyfor>
+</how-to-start>
 
 ## 🚛 Cómo entregar este proyecto
 
