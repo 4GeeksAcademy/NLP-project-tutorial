@@ -19,5 +19,6 @@
 	"description" :  {
 		"us": "Create an NLP-based spam detection system using Support Vector Machine (SVM) to analyze and classify URLs as spam or not. Learn dataset preprocessing, feature extraction, model training, and optimization.",
 		"es": "Crea un sistema de detección de spam basado en NLP utilizando el algoritmo Support Vector Machine (SVM) para analizar y clasificar URLs como spam o no. Aprende preprocesamiento de datos, extracción de características, entrenamiento y optimización del modelo."
-	}
+	},
+	"gitpod": true
 }
